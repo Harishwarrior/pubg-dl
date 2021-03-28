@@ -1,7 +1,5 @@
 # pubg-dl
 
-https://img.shields.io/github/contributors/Harishwarrior/pubg-dl?style=flat-square
-
 <p align='center'>
 Get PUBG and PUBG Lite download link without VPN.
 </p>
