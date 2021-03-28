@@ -1,4 +1,6 @@
-# pubg-dl
+<h1 align='center'>
+         pubg-dl
+  </h1>
 
 <p align='center'>
 Get PUBG and PUBG Lite download link without VPN.
