@@ -8,7 +8,7 @@ app = Flask(__name__)
 def hello():
     return "Hello World!"
 
-@app.route('/api')
+@app.route('/pubgm')
 def getlinks():
     URL = 'https://www.pubgmobile.com/en-US/home.shtml'
     page = requests.get(URL)
@@ -17,6 +17,15 @@ def getlinks():
     print(link)
     return link
     
+@app.route('/pubglite')
+def getlinklite():
+    URL = 'https://www.pubgmlite.com/en-US/'
+    page = requests.get(URL)
+    soup = BeautifulSoup(page.content, 'html.parser')
+    link = soup.find('a', {'class': 'text-hide spr dl-apk'})['href'] 
+    print(link)
+    return link
+
 
 if __name__ == '__main__':
     app.run()
