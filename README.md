@@ -15,6 +15,7 @@ Get PUBG and PUBG Lite download link without VPN.
   
   <a href="https://github.com/Harishwarrior/pubg-dl/deployments/activity_log?environment=pubg-dl">
   <img alt="GitHub deployments" src="https://img.shields.io/github/deployments/Harishwarrior/pubg-dl/pubg-dl?style=for-the-badge">
+         </a>
   
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Harishwarrior/pubg-dl?style=for-the-badge">
   
