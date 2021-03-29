@@ -2,11 +2,11 @@
          pubg-dl
   </h1>
 
-<p align='center'>
+<h2 align='center'>
 Get PUBG and PUBG Lite download link without VPN.
 </p>
 
-<p align="center">
+<h2 align="center">
          
      
   <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Harishwarrior/pubg-dl?style=for-the-badge">
