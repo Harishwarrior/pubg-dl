@@ -34,3 +34,8 @@ Get PUBG and PUBG Lite download link without VPN.
 ### How to deploy ?.
 
 * Here's the guide i have followed - https://stackabuse.com/deploying-a-flask-application-to-heroku/
+
+Check the current deployment here: 
+
+PUBG Mobile - https://pubg-dl.herokuapp.com/pubgm
+PUBG Lite   - https://pubg-dl.herokuapp.com/pubglite
