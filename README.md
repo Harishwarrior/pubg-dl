@@ -8,7 +8,6 @@ Get PUBG and PUBG Lite download link without VPN.
 
 <p align="center">
          
-     
   <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Harishwarrior/pubg-dl?style=for-the-badge">
   
   <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/Harishwarrior/pubg-dl?style=for-the-badge">
@@ -19,7 +18,18 @@ Get PUBG and PUBG Lite download link without VPN.
   
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Harishwarrior/pubg-dl?style=for-the-badge">
   
-  
-run ``pip install -r requirements.txt``
+### How to run ?.  
 
-run ``app.py``
+*Note: You need VPN if you are from India and you are running this in local host.*
+
+1. clone the repo ``git clone  https://github.com/Harishwarrior/pubg-dl.git``
+
+2. open the directory ``cd pubg-dl``
+
+3. run ``pip install -r requirements.txt``
+
+4. run ``app.py``
+
+### How to deploy ?.
+
+* Here's the guide i have followed - https://stackabuse.com/deploying-a-flask-application-to-heroku/
