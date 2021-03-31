@@ -15,7 +15,7 @@ def getlinks():
     soup = BeautifulSoup(page.content, 'html.parser')
     link = soup.find('a', {'class': 'apk-btn'})['href'] 
     print(link)
-    return link
+    return "<a class='padding:0.5rem;background:gray;text-decoration:none;color:black;' href='"+link+"'>PUBG Mobile</a>
     
 @app.route('/pubglite')
 def getlinklite():
@@ -24,7 +24,7 @@ def getlinklite():
     soup = BeautifulSoup(page.content, 'html.parser')
     link = soup.find('a', {'class': 'text-hide spr dl-apk'})['href'] 
     print(link)
-    return link
+    return "<a class='padding:0.5rem;background:gray;text-decoration:none;color:black;' href='"+link+"'>PUBG lite</a>"
 
 
 if __name__ == '__main__':
