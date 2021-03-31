@@ -15,7 +15,7 @@ def getlinks():
     soup = BeautifulSoup(page.content, 'html.parser')
     link = soup.find('a', {'class': 'apk-btn'})['href'] 
     print(link)
-    return "<a class='padding:0.5rem;background:gray;text-decoration:none;color:black;' href='"+link+"'>PUBG Mobile</a>
+    return "<a class='padding:0.5rem;background:gray;text-decoration:none;color:black;' href='"+link+"'>PUBG Mobile</a>"
     
 @app.route('/pubglite')
 def getlinklite():
