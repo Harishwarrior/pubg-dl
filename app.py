@@ -20,7 +20,7 @@ def getlinks():
     
 @app.route('/pubglite')
 def getlinklite():
-    img='https://wallpapercave.com/wp/wp5282026.jpg'
+    img='https://wallpapercave.com/wp/wp6075241.jpg'
     URL = 'https://www.pubgmlite.com/en-US/'
     page = requests.get(URL)
     soup = BeautifulSoup(page.content, 'html.parser')
