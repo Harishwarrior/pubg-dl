@@ -18,11 +18,11 @@ def hello():
     return "Hello World!"
 
 @app.route('/pubgm')
-def run():
+def pubgm():
     return getlinks("https://wallpapercave.com/wp/wp4907009.jpg","https://www.pubgmobile.com/en-US/home.shtml",'apk-btn')
 
 @app.route('/pubglite')
-def run():
+def pubglite():
     return getlinks('https://wallpapercave.com/wp/wp6075241.jpg','https://www.pubgmlite.com/en-US/','text-hide spr dl-apk')
 
 
