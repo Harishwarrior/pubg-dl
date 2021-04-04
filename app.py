@@ -16,11 +16,11 @@ def hello():
 
 @app.route('/pubgm')
 def pubgm():
-    return getlinks("https://wallpapercave.com/wp/wp4907009.jpg","https://www.pubgmobile.com/en-US/home.shtml",'apk-btn',"PUBG MOBILE")
+    return getlinks("https://wallpapercave.com/wp/wp4907009.jpg","https://www.pubgmobile.com/en-US/home.shtml",'apk-btn','PUBG MOBILE')
 
 @app.route('/pubglite')
 def pubglite():
-    return getlinks('https://wallpapercave.com/wp/wp6075241.jpg','https://www.pubgmlite.com/en-US/','text-hide spr dl-apk',"PUBG LITE")
+    return getlinks('https://wallpapercave.com/wp/wp6075241.jpg','https://www.pubgmlite.com/en-US/','text-hide spr dl-apk','PUBG LITE')
 
 if __name__ == '__main__':
     app.run()
