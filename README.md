@@ -3,7 +3,7 @@
   </h1>
 
 <h2 align='center'>
-Get PUBG and PUBG Lite download link without VPN.
+Get PUBG Global and PUBG Lite download link without VPN.
          </br> Deployed in Heroku as website.
 </h3>
 
