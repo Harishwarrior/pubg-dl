@@ -21,7 +21,7 @@ Get PUBG Global and PUBG Lite download link without VPN.
   
 ### How to run ?.  
 
-*Note: You need VPN if you are from India and you are running this in local host.*
+*Note: You need VPN if you are from India for first time login*
 
 1. clone the repo ``git clone  https://github.com/Harishwarrior/pubg-dl.git``
 
